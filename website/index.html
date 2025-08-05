@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navHeight">
+    <div class="container">
+      <a class="navbar-brand text-primary" href="#"><strong>Web Dev</a></strong>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 navMenu">
+          <li class="nav-item">
+            <a class="nav-link active text-primary navOption" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary navOption" href="#">Quem somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary navOption" href="#">Clientes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary navOption" href="#">Portfólio</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <a href="#" class="btn btn-primary">Fale Conosco</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <header class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6 pt-5 divDistancia">
+        <h1 class="lead text-center text-md-start chamadoWeb">Criamos <span class="text-primary">Websites modernos e
+            responsivos</span> com o Bootstrap.</h1>
+        <p class="lead text-muted text-center text-md-start lemaEmpresa">Com o bootstrap, podemos desenvolver sites com
+          mais praticidade, responsividade, criando interface mais amigavel e poucas linhas de código.</p>
+        <div class="mt-4">
+          <button class="btn btn-primary btn-lg mx-2">Saiba mais</button>
+          <button class="btn btn-outline-primary btn-lg mx-2">Conheça os nossos clientes</button>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 p-5">
+        <img src="https://cdn.pixabay.com/photo/2018/02/16/10/23/web-3157323_960_720.jpg" alt="" class="img-fluid">
+      </div>
+    </div>
+  </header>
+
+  <div class="container mb-5">
+    <div class="row mb-5">
+      
+      <div class="col-4">
+        <div class="card border-0">
+          <i class="bi bi-toggles text-primary ms-3 tamanhoIcone"></i>
+          <div class="card-body">
+            <h5 class="card-title">Clientes</h5>
+            <p class="card-text">Conheça nossos principais clientes que apostaram na nossa empresa</p>
+            <a href="#" class="btn btn-primary"> Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card border-0">
+          <i class="bi bi-basket-fill text-primary ms-3 tamanhoIcone"></i>
+          <div class="card-body">
+            <h5 class="card-title">Comprar</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary"> Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <div class="card border-0">
+          <i class="bi bi-cloud-fill text-primary ms-3 tamanhoIcone"></i>
+          <div class="card-body">
+            <h5 class="card-title">Serviço de cloud</h5>
+            <p class="card-text">Conheça nossos servidores de hospedagem de alta performance na nuvem</p>
+            <a href="#" class="btn btn-primary"> Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="mt-5 bg-secondary text-center text-light p-4">
+    Todos os direitos reservados para a empresa criadora de Websites
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

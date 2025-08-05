@@ -1,0 +1,33 @@
+.navHeight{
+    height: 80px;
+}
+
+.navMenu{
+    margin: 2px 35px;
+}
+
+.navOption{
+    margin-left: 25px;
+    font-size: 17px;
+    font-weight: 450;
+}
+
+.chamadoWeb{
+    font-size: 35px;
+    font-weight: 650;
+    margin-top: 20px;
+}
+
+.lemaEmpresa{
+    font-size: 19px;
+    font-weight: 350;
+    margin-top: 20px;
+}
+
+.tamanhoIcone{
+    font-size: 25px;
+}
+
+.divDistancia{
+    padding-top: 200px !important;
+}
